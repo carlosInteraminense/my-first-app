@@ -1,0 +1,92 @@
+*{
+	margin: 0 auto; /*centraliza o conteudo da pagina*/
+	font-family: Calibri;
+}
+
+
+body{
+	background-color: #48bc94;
+	text-align: center;
+}
+
+#header{
+	margin-top: 20px;
+	width: 300px;
+	height: 100px;
+	text-align:center;
+}
+
+
+#telaLoggin{
+	text-align: center; /*centraliza elementos do form*/
+	background-color: #48bc94;
+	border:1px solid #D9D9D9;
+	width: 300px; /*largura da div login*/
+	height: 350px;
+	margin-top: 30px;
+	
+}
+
+#telaRegister{
+	text-align: center; /*centraliza elementos do form*/
+	background-color: #48bc94;
+	border:1px solid #D9D9D9;
+	width: 300px; /*largura da div login*/
+	height: 350px;
+	margin-top: 30px;
+	
+}
+
+#tittleProgram{
+	text-align: center;
+	margin-top:20px;
+}
+
+input{
+	width:200px;
+	height: 30px;
+	text-align: center;
+	font: normal 14px sans-serif;
+}
+
+#input-user{
+	margin-top: 20px;
+}
+
+#input-password{
+	margin-top: 20px;
+}
+
+#input-confirm-password{
+	margin-top: 20px;
+}
+
+#input-email{
+	margin-top: 20px;
+}
+
+#buttonRegister{
+	width:60px;
+	height:20px;
+	margin-top:20px;
+	background-color: #ffffff;
+	cursor: pointer;
+	margin-left: 190px;
+    	font: bold 14px;
+}
+#buttonRegister:hover{
+    background-color: #d3d0d0;
+}
+
+#loginNow{
+	margin-top: 20px;
+	margin-right: 50px;
+	list-style: none;
+	font: bold 12px sans-serif;
+	float: right;
+}
+
+a{
+    text-decoration: none;
+}
+

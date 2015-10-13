@@ -1,0 +1,33 @@
+<html lang="pt-br">
+
+	<head>
+		<meta name="viewport" content="width=device-width" />
+			<title>Virtuoso</title>
+			<link rel="stylesheet" type="text/css" href="css/styleTestAba.css" />
+	</head>
+
+	<body id="bodyAbas">
+
+		<div id="header">
+	    		<h1><img src="images/logo.png"/></h1>
+	    
+		</div>
+
+		<div id="general">
+			<ul class="itens">
+				<li><a href="#aba1">Genre</a></li>
+				<li><a href="#aba2">Emotion</a></li>
+
+			</ul>
+			<div class="aba">
+				<div id="aba1">
+					Aba para gênero
+				</div>
+				<div id="aba2">
+					Aba para Emoção
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<html lang="pt-br">
+
+	<head>
+		<meta name="viewport" content="width=device-width" />
+			<title>Virtuoso</title>
+			<link rel="stylesheet" type="text/css" href="css/style.css" />
+			<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+			<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+	</head>
+
+	<body id="bodyAbas">
+
+		<div id="header">
+	    		<h1><img src="images/logo.png"/></h1>
+	    
+		</div>
+
+		<div id="general">
+			<ul class="itens">
+				<li><a href="#aba1">Genre</a></li>
+				<li><a href="#aba2">Emotion</a></li>
+
+			</ul>
+			<div class="aba">
+				<div id="aba1">
+					<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+			  			<div class="item"><img src="assets/fullimage4.jpg"></div>
+			  			<div class="item"><img src="assets/fullimage5.jpg"></div>
+			  			<div class="item"><img src="assets/fullimage6.jpg"></div>
+			  			<div class="item"><img src="assets/fullimage7.jpg"></div>
+			  			<div class="item"><img src="assets/fullimage1.jpg"></div>
+			  			<div class="item"><img src="assets/fullimage2.jpg"></div>
+			  			<div class="item"><img src="assets/fullimage3.jpg"></div>
+ 
+					</div>
+				</div>
+				<div id="aba2">
+					Aba para Emoção
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="owl-carousel/owl.carousel.js"></script>
+		<script>
+
+			$(document).ready(function() {
+ 
+			  var owl = $("#owl-demo");
+			 
+			  owl.owlCarousel({
+			    items : 1,
+			    lazyLoad : true,
+			    navigation : true
+			  });
+			 
+			});
+
+		</script>
+	</body>
+</html>

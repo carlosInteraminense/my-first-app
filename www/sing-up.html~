@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width" />
+			<title>Virtuoso</title>
+			<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+
+
+
+	<body>
+
+		<div id="header">
+	    		<h1><img src="images/logo.png"/></h1>
+	    
+		</div>
+
+		<div id="telaLoggin">
+			<div id="input-user">
+				<input type="text" placeholder="User Name"/>
+			</div>
+
+			<div id="input-password">
+				<input type="password" placeholder="Password">
+			</div>
+
+			<div id="input-confirm-password">
+				<input type="password" placeholder="Confirm the Password">
+			</div>
+
+			<div id="input-email">
+				<input type="text" placeholder="Email"/>
+			</div>
+
+			<div id="buttonRegister">
+				Register
+			</div>
+
+			<div id="loginNow">
+				You have an account? <li><a href="sing-up.html">Login now</a></li>
+
+		</div>
+
+	</body>
+	
+
+
+</html>
